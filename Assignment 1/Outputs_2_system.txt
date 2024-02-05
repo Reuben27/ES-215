@@ -1,0 +1,46 @@
+Time taken by Question 2 (int) python program for N = 32: 0.005736700000000004 seconds 
+Time taken by Question 2 (int) python program for N = 64: 0.0484667 seconds 
+Time taken by Question 2 (int) python program for N = 128: 0.4168067 seconds 
+Time taken by Question 2 (int) python program for N = 256: 3.3496763 seconds 
+Time taken by Question 2 (int) python program for N = 512: 24.4782316 seconds 
+
+Time taken by Question 2 (double) python program for N = 32: 0.010130599999999997 seconds 
+Time taken by Question 2 (double) python program for N = 64: 0.0631648 seconds 
+Time taken by Question 2 (double) python program for N = 128: 0.42862819999999996 seconds 
+Time taken by Question 2 (double) python program for N = 256: 3.2061847 seconds 
+Time taken by Question 2 (double) python program for N = 512: 25.924330700000002 seconds 
+ 
+Time taken by Question 2 (int) cpp program for N = 32: 0 microseconds 
+Time taken by Question 2 (int) cpp program for N = 32: 1003000 nanoseconds 
+Time taken by Question 2 (int) cpp program for N = 32: 15554000 nanoseconds 
+Time taken by Question 2 (int) cpp program for N = 64: 0 microseconds
+Time taken by Question 2 (int) cpp program for N = 64: 899 microseconds 
+Time taken by Question 2 (int) cpp program for N = 64: 1320 microseconds  
+Time taken by Question 2 (int) cpp program for N = 128: 16524 microseconds 
+Time taken by Question 2 (int) cpp program for N = 128: 13586 microseconds 
+Time taken by Question 2 (int) cpp program for N = 128: 18074 microseconds 
+Time taken by Question 2 (int) cpp program for N = 256: 66006 microseconds  
+Time taken by Question 2 (int) cpp program for N = 256: 60841 microseconds 
+Time taken by Question 2 (int) cpp program for N = 256: 78796 microseconds 
+Time taken by Question 2 (int) cpp program for N = 512: 649810 microseconds 
+Time taken by Question 2 (int) cpp program for N = 512: 529258 microseconds 
+Time taken by Question 2 (int) cpp program for N = 512: 542149 microseconds
+
+Time taken by Question 2 (double) cpp program for N = 32: 0 microseconds 
+Time taken by Question 2 (double) cpp program for N = 32: 0 microseconds 
+Time taken by Question 2 (double) cpp program for N = 32: 0 nanoseconds 
+Time taken by Question 2 (double) cpp program for N = 64: 1021 microseconds 
+Time taken by Question 2 (double) cpp program for N = 64: 987 microseconds 
+Time taken by Question 2 (double) cpp program for N = 64: 1009 microseconds 
+Time taken by Question 2 (double) cpp program for N = 128: 21414 microseconds 
+Time taken by Question 2 (double) cpp program for N = 128: 18556 microseconds 
+Time taken by Question 2 (double) cpp program for N = 128: 22 milliseconds 
+Time taken by Question 2 (double) cpp program for N = 128: 16 milliseconds
+Time taken by Question 2 (double) cpp program for N = 256: 74 milliseconds 
+Time taken by Question 2 (double) cpp program for N = 256: 90 milliseconds  
+Time taken by Question 2 (double) cpp program for N = 256: 75 milliseconds 
+Time taken by Question 2 (double) cpp program for N = 256: 96 milliseconds 
+Time taken by Question 2 (double) cpp program for N = 512: 983 milliseconds 
+Time taken by Question 2 (double) cpp program for N = 512: 706 milliseconds 
+Time taken by Question 2 (double) cpp program for N = 512: 619 milliseconds 
+Time taken by Question 2 (double) cpp program for N = 512: 670 milliseconds 

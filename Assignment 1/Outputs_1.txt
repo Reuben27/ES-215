@@ -1,0 +1,20 @@
+Time taken by Question 1_a program to print first 40 fibonacci numbers: 1735 milliseconds 
+Time taken by Question 1_a program to print first 40 fibonacci numbers: 1664 milliseconds 
+Time taken by Question 1_a program to print first 45 fibonacci numbers: 17804 milliseconds 
+Time taken by Question 1_a program to print first 45 fibonacci numbers: 18196 milliseconds 
+Time taken by Question 1_a program to print first 55 fibonacci numbers: 2240935 milliseconds
+
+Time taken by Question 1_b program to print first 100 fibonacci numbers: 20992 * 10^-6 sec 
+Time taken by Question 1_b program to print first 100 fibonacci numbers: 27322 * 10^-6 sec 
+Time taken by Question 1_b program to print first 100 fibonacci numbers: 22525 * 10^-6 sec 
+Time taken by Question 1_b program to print first 100 fibonacci numbers: 22341 * 10^-6 sec
+
+Time taken by Question 1_c program to print first 100 fibonacci numbers: 20755 * 10^-6 sec  
+Time taken by Question 1_c program to print first 100 fibonacci numbers: 24135 * 10^-6 sec 
+Time taken by Question 1_c program to print first 100 fibonacci numbers: 21512 * 10^-6 sec 
+Time taken by Question 1_c program to print first 100 fibonacci numbers: 28179 * 10^-6 sec 
+
+Time taken by Question 1_d program to print first 100 fibonacci numbers: 25002 * 10^-6 sec 
+Time taken by Question 1_d program to print first 100 fibonacci numbers: 22522 * 10^-6 sec 
+Time taken by Question 1_d program to print first 100 fibonacci numbers: 18955 * 10^-6 sec 
+Time taken by Question 1_d program to print first 100 fibonacci numbers: 22528 * 10^-6 sec 
