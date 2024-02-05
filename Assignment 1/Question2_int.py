@@ -1,5 +1,12 @@
+import cProfile
 import random
 import timeit
+import time
+
+profiler = cProfile.Profile()
+profiler.enable()
+start_overall_system = timeit.default_timer()
+time_process_start = time.time()
 
 N = 512
 A = [[0]*N]*N
@@ -14,15 +21,27 @@ for m in range(N):
 
 C = [[0]*N]*N
 
-start = timeit.default_timer()
+start_meat_system = timeit.default_timer()
 for p in range(N):
   for q in range(N):
     for r in range(N):
       C[p][q] = A[p][r]*B[r][q]
-end = timeit.default_timer()
-    
-time_taken = end -  start
-print('Time taken by program is: ', time_taken)  
-file = open("Outputs_2.txt","a+")
-file.write("Time taken by Question 2 (int) python program for N = 512: " + str(time_taken) + " seconds \n")
+end_meat_system = timeit.default_timer()
+end_overall_system = timeit.default_timer()
+
+time_taken_meat = end_meat_system -  start_meat_system
+time_taken_overall = end_overall_system -  start_overall_system
+time_process = time.process_time()
+profiler.disable()
+profiler.print_stats()
+
+print('Time taken by meat portion of the program is: ', time_taken_meat)  
+print('Time taken by overall program is: ', time_taken_overall)  
+print('Process time taken by overall program is: ', time_process) 
+
+file = open("Assignment 1\Outputs_2_int_python.txt","a+")
+file.write("Time taken by Question 2 (int) meat portion of program for N = " + str(N) + ": " + str(time_taken_meat) + " seconds \n")
+file.write("Time taken by Question 2 (int) overall python program for N = " + str(N) + ": " + str(time_taken_overall) + " seconds \n")
+file.write("Process time taken by Question 2 (int) python program for N = " + str(N) + ": " +str(time_process) + " seconds \n")
+# profiler.dump_stats("Assignment 1\Outputs_2.txt")
 file.close()
