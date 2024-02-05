@@ -1,69 +1,54 @@
-Time taken by Question 2 (int) meat portion of program for N = 32: 0.010877400000000002 seconds 
-Time taken by Question 2 (int) overall python program for N = 32: 0.015545799999999999 seconds 
-Process time taken by Question 2 (int) python program for N = 32: 0.0 seconds 
+Time taken by Question 2 (int) meat portion of program for N = 32: 0.0059615000000000015 seconds 
+Time taken by Question 2 (int) overall python program for N = 32: 0.007131100000000001 seconds 
+Process time taken by Question 2 (int) python program for N = 32: 0.03125 seconds 
 ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-  2048    0.001    0.000    0.002    0.000 random.py:238(_randbelow_with_getrandbits)
-  2048    0.002    0.000    0.003    0.000 random.py:291(randrange)
-  2048    0.001    0.000    0.004    0.000 random.py:335(randint)
+  2048    0.000    0.000    0.001    0.000 random.py:512(uniform)
     4    0.000    0.000    0.000    0.000 {built-in method time.perf_counter}
     1    0.000    0.000    0.000    0.000 {built-in method time.process_time}
     1    0.000    0.000    0.000    0.000 {built-in method time.time}
-  2048    0.000    0.000    0.000    0.000 {method 'bit_length' of 'int' objects}
     1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
-  2584    0.000    0.000    0.000    0.000 {method 'getrandbits' of '_random.Random' objects}
+  2048    0.000    0.000    0.000    0.000 {method 'random' of '_random.Random' objects}
 
-Time taken by Question 2 (int) meat portion of program for N = 64: 0.046579300000000004 seconds 
-Time taken by Question 2 (int) overall python program for N = 64: 0.06072090000000001 seconds 
+Time taken by Question 2 (int) meat portion of program for N = 64: 0.0518529 seconds 
+Time taken by Question 2 (int) overall python program for N = 64: 0.056317 seconds 
 Process time taken by Question 2 (int) python program for N = 64: 0.0625 seconds 
 ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-  8192    0.004    0.000    0.005    0.000 random.py:238(_randbelow_with_getrandbits)
-  8192    0.004    0.000    0.009    0.000 random.py:291(randrange)
-  8192    0.002    0.000    0.012    0.000 random.py:335(randint)
+  8192    0.002    0.000    0.003    0.000 random.py:512(uniform)
     4    0.000    0.000    0.000    0.000 {built-in method time.perf_counter}
     1    0.000    0.000    0.000    0.000 {built-in method time.process_time}
     1    0.000    0.000    0.000    0.000 {built-in method time.time}
-  8192    0.001    0.000    0.001    0.000 {method 'bit_length' of 'int' objects}
     1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
-10462    0.001    0.000    0.001    0.000 {method 'getrandbits' of '_random.Random' objects}
+  8192    0.001    0.000    0.001    0.000 {method 'random' of '_random.Random' objects}
 
-Time taken by Question 2 (int) meat portion of program for N = 128: 0.46566280000000004 seconds 
-Time taken by Question 2 (int) overall python program for N = 128: 0.5253772000000001 seconds 
-Process time taken by Question 2 (int) python program for N = 128: 0.28125 seconds 
+Time taken by Question 2 (int) meat portion of program for N = 128: 0.3969616 seconds 
+Time taken by Question 2 (int) overall python program for N = 128: 0.4173021 seconds 
+Process time taken by Question 2 (int) python program for N = 128: 0.3125 seconds 
 ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-  32768    0.016    0.000    0.022    0.000 random.py:238(_randbelow_with_getrandbits)
-  32768    0.018    0.000    0.040    0.000 random.py:291(randrange)
-  32768    0.010    0.000    0.050    0.000 random.py:335(randint)
+  32768    0.009    0.000    0.011    0.000 random.py:512(uniform)
       4    0.000    0.000    0.000    0.000 {built-in method time.perf_counter}
       1    0.000    0.000    0.000    0.000 {built-in method time.process_time}
       1    0.000    0.000    0.000    0.000 {built-in method time.time}
-  32768    0.003    0.000    0.003    0.000 {method 'bit_length' of 'int' objects}
       1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
-  41993    0.004    0.000    0.004    0.000 {method 'getrandbits' of '_random.Random' objects}
-
-Time taken by Question 2 (int) meat portion of program for N = 256: 3.5032673 seconds 
-Time taken by Question 2 (int) overall python program for N = 256: 3.7312874999999996 seconds 
-Process time taken by Question 2 (int) python program for N = 256: 2.390625 seconds 
+  32768    0.003    0.000    0.003    0.000 {method 'random' of '_random.Random' objects}
+  
+Time taken by Question 2 (int) meat portion of program for N = 256: 3.3838594 seconds 
+Time taken by Question 2 (int) overall python program for N = 256: 3.4602469 seconds 
+Process time taken by Question 2 (int) python program for N = 256: 2.703125 seconds 
 ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-  131072    0.059    0.000    0.083    0.000 random.py:238(_randbelow_with_getrandbits)
-  131072    0.071    0.000    0.154    0.000 random.py:291(randrange)
-  131072    0.037    0.000    0.190    0.000 random.py:335(randint)
+  131072    0.033    0.000    0.043    0.000 random.py:512(uniform)
       4    0.000    0.000    0.000    0.000 {built-in method time.perf_counter}
       1    0.000    0.000    0.000    0.000 {built-in method time.process_time}
       1    0.000    0.000    0.000    0.000 {built-in method time.time}
-  131072    0.010    0.000    0.010    0.000 {method 'bit_length' of 'int' objects}
       1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
-  167560    0.014    0.000    0.014    0.000 {method 'getrandbits' of '_random.Random' objects}
+  131072    0.010    0.000    0.010    0.000 {method 'random' of '_random.Random' objects}
 
-Time taken by Question 2 (int) meat portion of program for N = 512: 27.1807473 seconds 
-Time taken by Question 2 (int) overall python program for N = 512: 28.1574593 seconds 
-Process time taken by Question 2 (int) python program for N = 512: 22.390625 seconds 
+Time taken by Question 2 (int) meat portion of program for N = 512: 26.5328025 seconds 
+Time taken by Question 2 (int) overall python program for N = 512: 26.872667 seconds 
+Process time taken by Question 2 (int) python program for N = 512: 21.234375 seconds 
 ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-  524288    0.249    0.000    0.347    0.000 random.py:238(_randbelow_with_getrandbits)
-  524288    0.295    0.000    0.643    0.000 random.py:291(randrange)
-  524288    0.165    0.000    0.807    0.000 random.py:335(randint)
+  524288    0.148    0.000    0.187    0.000 random.py:512(uniform)
       4    0.000    0.000    0.000    0.000 {built-in method time.perf_counter}
       1    0.000    0.000    0.000    0.000 {built-in method time.process_time}
       1    0.000    0.000    0.000    0.000 {built-in method time.time}
-  524288    0.042    0.000    0.042    0.000 {method 'bit_length' of 'int' objects}
       1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
-  670544    0.056    0.000    0.056    0.000 {method 'getrandbits' of '_random.Random' objects}
+  524288    0.040    0.000    0.040    0.000 {method 'random' of '_random.Random' objects}
