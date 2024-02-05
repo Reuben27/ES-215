@@ -4,7 +4,7 @@ Repository for all code written as part of ES 215: Computer Architecture and Org
 
 ## Assignment 1
 
-Please go to the [Assignment 1 Folder]() for all programs, output txt files, and plots.
+Please go to the [Assignment 1 Folder](https://github.com/Reuben27/ES-215/tree/main/Assignment%201) for all programs, output txt files, and plots.
 
 Refer to the [Assignment 1 PDF]() for all explainations
 
