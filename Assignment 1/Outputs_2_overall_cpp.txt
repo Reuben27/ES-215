@@ -1,0 +1,29 @@
+Time taken by Question 2 (int) cpp meat portion of program for N = 32: 0 microseconds 
+Time taken by Question 2 (int) cpp overall program for N = 32: 999 microseconds
+
+Time taken by Question 2 (int) cpp meat portion of program for N = 64: 1004 microseconds 
+Time taken by Question 2 (int) cpp overall program for N = 64: 1004 microseconds 
+
+Time taken by Question 2 (int) cpp meat portion of program for N = 128: 6021 microseconds 
+Time taken by Question 2 (int) cpp overall program for N = 128: 6137 microseconds 
+
+Time taken by Question 2 (int) cpp meat portion of program for N = 256: 73696 microseconds 
+Time taken by Question 2 (int) cpp overall program for N = 256: 73696 microseconds 
+
+Time taken by Question 2 (int) cpp meat portion of program for N = 512: 624739 microseconds 
+Time taken by Question 2 (int) cpp overall program for N = 512: 633783 microseconds 
+
+Time taken by Question 2 (double) cpp meat portion of program for N = 32: 0 microseconds 
+Time taken by Question 2 (double) cpp overall program for N = 32: 0 microseconds 
+
+Time taken by Question 2 (double) cpp meat portion of program for N = 64: 997 microseconds 
+Time taken by Question 2 (double) cpp overall program for N = 64: 997 microseconds 
+ 
+Time taken by Question 2 (double) cpp meat portion of program for N = 128: 7015 microseconds 
+Time taken by Question 2 (double) cpp overall program for N = 128: 7015 microseconds 
+
+Time taken by Question 2 (double) cpp meat portion of program for N = 256: 73484 microseconds 
+Time taken by Question 2 (double) cpp overall program for N = 256: 76529 microseconds 
+
+Time taken by Question 2 (double) cpp meat portion of program for N = 512: 778751 microseconds 
+Time taken by Question 2 (double) cpp overall program for N = 512: 789000 microseconds 

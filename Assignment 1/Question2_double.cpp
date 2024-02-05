@@ -9,10 +9,13 @@ typedef std::chrono::high_resolution_clock Clock;
 using namespace std;
 
 int main()
-{
+{ 
+  auto start_overall = Clock::now();
+  ios_base::sync_with_stdio(false);
+
   // Initialization
-  int N = 512;
-  static double a[512][512], b[512][512], c[512][512];
+  int N = 256;
+  static double a[256][256], b[256][256], c[256][256];
 
   for(int i = 0; i<N; i++){
     for(int j = 0; j<N; j++){
@@ -28,8 +31,7 @@ int main()
     }
   }
 
-  auto start = Clock::now();
-  ios_base::sync_with_stdio(false); 
+  auto start = Clock::now(); 
   for(int i = 0; i < N; i++){
     for(int j = 0; j < N; j++){
       for(int k = 0; k < N; k++)
@@ -40,11 +42,14 @@ int main()
   }
 
   auto end = Clock::now();
-  auto time_taken = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
-  cout << "Time taken by program is : " << time_taken << " * milliseconds " << endl; 
+  auto end_overall = Clock::now();
+  auto time_taken_meat = std::chrono::duration_cast<std::chrono::microseconds>(end - start).count();
+  auto time_taken_overall = std::chrono::duration_cast<std::chrono::microseconds>(end_overall - start_overall).count();
+  cout << "Time taken by meat program is : " << time_taken_meat << " * microseconds " << endl;
+  cout << "Time taken by overall program is : " << time_taken_overall << " * microseconds " << endl;  
 
   string line, text;
-  ifstream myfile("Outputs_2.txt");
+  ifstream myfile("Outputs_2_overall.txt");
   if (myfile.is_open())
   {
     while ( getline (myfile, line) )
@@ -54,11 +59,12 @@ int main()
     myfile.close();
   }
 
-  ofstream myoutfile ("Outputs_2.txt");
+  ofstream myoutfile ("Outputs_2_overall.txt");
   if (myoutfile.is_open())
   {
     myoutfile << text;
-    myoutfile << "Time taken by Question 2 (double) cpp program for N = 512: " << time_taken << " milliseconds \n" ; 
+    myoutfile << "Time taken by Question 2 (double) cpp meat portion of program for N = " << N << ": " << time_taken_meat << " microseconds \n" ; 
+    myoutfile << "Time taken by Question 2 (double) cpp overall program for N = " << N << ": " << time_taken_overall << " microseconds \n" ; 
     myoutfile.close();
   }
   return 0;
